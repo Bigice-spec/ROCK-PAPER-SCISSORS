@@ -22,9 +22,9 @@
            } 
 
            function getInput(){
-               let prompt = window.prompt("Enter either rock or paper or scissor ").toLowerCase();
+               let prompt = window.prompt("Play 5 times with good entries. \n Enter either rock or paper or scissor ").toLowerCase();
                if (!Object.keys(choices).includes(prompt)){
-                prompt = window.prompt("Wrong entry! Enter rock or paper or scissor").toLowerCase();
+                prompt = window.prompt("Play 5 times with good entries. \n Wrong entry! Enter rock or paper or scissor").toLowerCase();
                }
                return prompt;
            }
